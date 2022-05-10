@@ -1,13 +1,13 @@
 /***** NAVBAR *****/
 .navbar-default {
-  background-color: #863ee3;
+  background-color: #0388A6;
   border-radius: 0;
   background-image: none;
 }
 
 /* Navbar title */
 .navbar-default .navbar-brand {
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
   font-weight: bold;
 }
@@ -17,36 +17,36 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ebd122;
+    color: #D9564A;
 }
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: whitesmoke;
   font-size: 16px;
 }
 
 /* Navbar collapsed styles */
 .navbar-header .navbar-toggle {
-  color: #fff;
+  color: #0388A6;
 }
 
 .navbar-header .navbar-toggle:hover,
 .navbar-header .navbar-toggle:focus {
-  background-color: #ebd122;
-  color: #242424;
+  background-color: #D9564A;
+  color: #D9564A;
 }
 
 /*** Portfolio pieces ***/
 .portfolio-thumbnail {
   background-color: #fff;
-  border-color: #863ee3;
+  border-color: #D9564A;
   border-width: 2px;
   width: 95%;
 }
 
 .portfolio-thumbnail:hover {
-  border-color: #ebd122;
+  border-color: #D9564A;
 }
 
 .portfolio-title {
@@ -68,7 +68,7 @@
 }
 
 hr {
-  border-color: white;
+  border-color: whitesmoke;
   border-width: 2px;
 }
 
@@ -77,17 +77,17 @@ p {
 }
 
 a {
-  color: #863ee3;
+  color: #D9564A;
 }
 
 a:hover {
-  color: #ebd122;
+  color: #D9564A;
 }
 
 .jumbotron {
-  background-image: url("../assets/contour-lines.png");
-  text-align: center;
-  color: #fff;
+  background-color: #D9564A;
+  text-align: left;
+  color: whitesmoke;
   padding: 2%;
 }
 
@@ -96,9 +96,14 @@ a:hover {
   font-weight: bold;
 }
 
+.cover {
+  padding: 0 25.5rem;
+}
+
+
 body {
   padding-top: 50px;
-  font-family: 'Georgia', serif;
-  background-color: #f7f1fa;
-  color: #242424;
+  font-family: 'Gill Sans', sans-serif;
+  background-color: whitesmoke;
+  color: #733934;
 }
