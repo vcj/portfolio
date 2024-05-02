@@ -1,0 +1,109 @@
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #9eb3c2;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: #fffcf9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #4f5165;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #fffcf9;
+  font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #474044;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #4f5165;
+  color: #4f5165;
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: #fffcf9;
+  border-color: #4f5165;
+  border-width: 2px;
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #4f5165;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+#about-world {
+  max-height: 200px;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+
+hr {
+  border-color: #fffcf9;
+  border-width: 2px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #9C3848;
+}
+
+a:hover {
+  color: #4f5165;
+}
+
+.jumbotron {
+  background-color: #4f5165;
+  text-align: center;
+  color: #fffcf9;
+  padding: 2%;
+}
+
+.jumbotron h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+
+body {
+  padding-top: 50px;
+  font-family: 'Gill Sans', sans-serif;
+  background-color: #fffcf9;
+  color: #4f5165;
+}
